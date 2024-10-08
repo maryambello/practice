@@ -1,0 +1,33 @@
+body {
+  background-color: palevioletred;
+}
+h1 {
+  font-family: sans-serif;
+  font-size: 300%;
+  text-align: center;
+}
+p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+p img {
+  width: 500px;
+  height: 300px;
+  border-radius: 10px;
+}
+table,
+th,
+td {
+  border: 1px solid #dddddd;
+}
+table {
+  border-spacing: 30px;
+}
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+td,
+th {
+  padding: 15px;
+}
